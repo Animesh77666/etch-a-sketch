@@ -1,0 +1,16 @@
+.medium-grid-default{
+    grid-template-columns: repeat(44,4px);
+}
+
+#sketchpad{
+    display: inline-grid;
+}
+
+#sketchpad > div{
+    background-color: aliceblue;
+}
+
+.medium-grid-default > div {
+    height: 19px;
+    width: 19px;
+}
