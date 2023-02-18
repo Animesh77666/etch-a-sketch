@@ -11,13 +11,28 @@
   <body>
     <div class="container">
 
-      <header class="heading">
+      <header class="header">
         <h1>Etch a Sketch</h1>
       </header>
 
       <main>
-        <div id="sketchpad" class="medium-grid-default">
-            
+        <div id="sketchpad" class="medium-grid-default"> 
+        </div>
+        
+        <div class="controls">
+          <div>
+            <p>Grid density: </p>
+            <button id="small" class="size small">Small</button>
+            <button id="medium" class="size medium">Medium</button>
+            <button id="large" class="size big">Big</button>
+          </div>
+          <div class="mode-controls">
+            <p>Mode: </p>
+            <button class="mode classic">Classic</button>
+            <button class="mode modern">Modern</button>
+            <button class="mode psychedelic">Psychedelic</button>
+          </div>
+          <button class="erase">Erase</button>
         </div>
       </main>
 
